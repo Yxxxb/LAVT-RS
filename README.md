@@ -333,8 +333,13 @@ Results on the A2D-Sentences dataset under the “pretrain-then-finetune” trai
 
 You could download video LAVT model weights (which are stored on Tsinghua cloud disk) using links below and put them in `./checkpoints`.
 
-| [Refer-YouTube-VOS]() | [A2D-Sentences]() |
+| Refer-YouTube-VOS | A2D-Sentences |
 | --------------------- | ----------------- |
+| [Refcoco_pretrain](https://cloud.tsinghua.edu.cn/d/54044571899a4d0ebffd/) | [Refcoco_pretrain](https://cloud.tsinghua.edu.cn/d/54044571899a4d0ebffd/) |
+| [YTVOS_finetune](https://cloud.tsinghua.edu.cn/d/54d4499c22af48559fce/) | [A2D_finetune](https://cloud.tsinghua.edu.cn/d/282406a0385b4a62b857/) |
+| [YTVOS_scratch]() | [A2D_scratch](https://cloud.tsinghua.edu.cn/d/51dd4e5c1dea41428b45/) |
+| [3D_PWAM_ablation](https://cloud.tsinghua.edu.cn/d/7d93ecb3e5e3423882ac/) | - |
+| [CM-FPN_ablation](https://cloud.tsinghua.edu.cn/d/1c00295c054d4b578e16/) | - |
 
 ## Contributing
 
