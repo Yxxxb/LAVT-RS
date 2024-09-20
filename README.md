@@ -4,7 +4,7 @@
 
 *\* Equal Contribution*.
 
-🎉🎉🎉 LAVT is officially accepted by **TPAMI 2024**！
+🎉🎉🎉 LAVT is officially accepted by **TPAMI 2024!**
 
 Welcome to the repository for the method presented in "Language-Aware Vision Transformer for Referring Segmentation."
 Code in this repository is written using [PyTorch](https://pytorch.org/) and is organized in the following way (assuming the working directory is the root directory of this repository):
