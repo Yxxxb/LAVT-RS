@@ -22,10 +22,6 @@ Code in this repository is written using [PyTorch](https://pytorch.org/) and is 
   defined in `backbone.py` and the simple mask decoder defined in `mask_predictor.py`,
   and `segmentation.py` provides a model interface and functions used to initialize the model.
 * `./lib/video_swin_transformer.py` contains the new Video Swin visual backbone.
-
-
---------------------------------------------
-
 * `./train.py` is invoked to train the model.
 * `./test_ytvos.py` is invoked to run inference on
   the validation set of YouTube-VOS. The output prediction masks folder
@@ -65,11 +61,7 @@ pip install -r requirements.txt
 
 ### Datasets
 
-----------------------------------
-
 #### Image
-
-----------------------------------
 
 1. Follow instructions in the `./refer` directory to set up subdirectories
    and download annotations.
@@ -259,8 +251,6 @@ python test_ytvos.py 1 --model lavt_video --sep_t_pwam --conv3d_kernel_size_t 3-
 
 #### Image
 
-----------------------------------
-
 The complete test results of the released LAVT models are summarized as follows: we report the results of LAVT trained with a multi-class Dice loss and based on the new implementation (`lavt_one`).
 
 |      Dataset      | P@0.5 | P@0.6 | P@0.7 | P@0.8 | P@0.9 | Overall IoU | Mean IoU |
@@ -297,8 +287,6 @@ mkdir ./checkpoints
 * The Prec@K, overall IoU and mean IoU numbers in the training logs will differ from the final results obtained by running `test.py`, because only one out of multiple annotated expressions is randomly selected and evaluated for each object during training. But these numbers give a good idea about the test performance. The two should be fairly close.
 
 #### Video
-
-------
 
 Results on the Refer-YouTube-VOS dataset under the “train-from-scratch” training setting with different backbone networks employed.
 
