@@ -1,7 +1,5 @@
 # LAVT: Language-Aware Vision Transformer for Referring Segmentation
 
-[Zhao Yang](https://github.com/yz93)\*, [Jiaqi Wang](https://myownskyw7.github.io/)\*, [Xubing Ye](https://github.com/Yxxxb)\*, [Yansong Tang](https://andytang15.github.io), [Kai Chen](https://chenkai.site/), [Hengshuang Zhao](https://hszhao.github.io/), [Philip H.S. Torr](https://scholar.google.com/citations?user=kPxa2w0AAAAJ&hl=zh-CN)
-
 *\* Equal Contribution*.
 
 LAVT is officially accepted by **TPAMI 2024!** 🎉🎉🎉
