@@ -1,4 +1,4 @@
-# LAVT: Language-Aware Vision Transformer for Referring Segmentation
+# LAVT: Language-Aware Vision Transformer for Referring Segmentation [CVPR2022, TPAMI2024]
 LAVT is officially accepted by **TPAMI 2024!** 🎉🎉🎉
 # 
 Welcome to the repository for the method presented in "Language-Aware Vision Transformer for Referring Segmentation."
